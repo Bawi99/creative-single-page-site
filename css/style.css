@@ -318,7 +318,7 @@ h4 {
 
 .sect-4-show {
   /* border: solid 2px fuchsia; */
-  background-color: gray;
+  background-color: #000;
   position: relative;
   grid-area: 8/2 / span 1/-2;
 }
