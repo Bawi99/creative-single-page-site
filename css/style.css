@@ -387,7 +387,11 @@ h4 {
   line-height: 0;
 }
 .slide-nav .slide-nav-btn {
-  display: inline-block;
+  border: none;
+  background-color: transparent;
+  padding: 0.5em;
+  line-height: 0;
+  cursor: pointer;
   border-radius: 3em;
 }
 .slide-nav .slide-nav-btn:hover svg g,

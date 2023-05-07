@@ -43,7 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.querySelector('.slide-nav').onclick = (evt) => {
     if (evt.target.closest('#previous') || evt.target.closest('#next')) {
-      evt.preventDefault();
       clearTimeout(pauseTimer);
       clearTimeout(slideTimer);
       pauseTimer = setTimeout(slideShow, 3000);
