@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
   let counter = slideLength - 1;
   let slideTimer = null;
   let pauseTimer = null;
-  let slideOutTimer = null;
 
   const blurOnmouseleave = (selector) => {
     const element = document.querySelector(selector);
