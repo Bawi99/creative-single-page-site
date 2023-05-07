@@ -141,10 +141,10 @@ main {
   right: 0;
   height: 0;
   overflow: hidden;
-  transition: 0.5s ease-in-out;
+  transition: height 0.5s ease-in-out;
 }
 .drop-nav {
-  height: 320px;
+  height: 295%;
 }
 
 .nav-list {
@@ -166,7 +166,8 @@ main {
   text-decoration: none;
   letter-spacing: 1px;
   padding: 0.5em 2em;
-  transition: 300ms ease-in;
+  transform: scale(1);
+  transition: transform 300ms ease-in;
   font-weight: var(--fw-bold);
 }
 .nav-link:focus,
