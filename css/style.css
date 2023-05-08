@@ -321,7 +321,8 @@ h3 {
   position: relative;
   grid-area: 8/2 / span 1/-2;
 }
-.sect-4-show .figureOverlay {
+.sect-4-show figure::after {
+  content: '';
   position: absolute;
   inset: 0;
   background-image: linear-gradient(0deg, black 0%, transparent 30%);
