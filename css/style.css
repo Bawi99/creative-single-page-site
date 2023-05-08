@@ -37,7 +37,6 @@
 h1,
 h2,
 h3,
-h4,
 ul,
 ol,
 p {
@@ -49,8 +48,7 @@ ol {
 }
 h1,
 h2,
-h3,
-h4 {
+h3 {
   line-height: 1.1;
 }
 
@@ -207,7 +205,7 @@ h2 {
   font-size: var(--fz-h2);
   font-weight: var(--fw-bold);
 }
-h4 {
+h3 {
   font-size: inherit;
 }
 .btn {
@@ -312,7 +310,7 @@ h4 {
   top: -0.85em;
   left: 0;
 }
-.sect-3-list h4 {
+.sect-3-list h3 {
   padding-left: 1em;
   margin-bottom: 0.75em;
 }
@@ -589,7 +587,7 @@ h4 {
   .sect-3-list li::before {
     left: -0.75em;
   }
-  .sect-3-list h4 {
+  .sect-3-list h3 {
     padding-left: 0;
   }
 }
