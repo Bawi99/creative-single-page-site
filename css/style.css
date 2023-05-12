@@ -543,11 +543,12 @@ h3 {
   .nav-bar {
     background-color: var(--clr-accent-100);
     position: static;
-    height: auto;
-    overflow: auto;
+    display: block;
     transition: none;
   }
-
+  .nav-list-container {
+    overflow: auto;
+  }
   .nav-list {
     --flowiser: 0;
     padding: var(--vert-spacer) 0;
