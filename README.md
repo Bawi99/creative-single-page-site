@@ -30,8 +30,8 @@ Users are able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://bawi99.github.io/creative-single-page-site/)
+- Solution URL: [Add solution URL here](https://github.com/astaba/creative-single-page-site)
+- Live Site URL: [![Netlify Status](https://api.netlify.com/api/v1/badges/76334291-b7ce-433f-8097-c761bebc821f/deploy-status)](https://app.netlify.com/sites/coruscating-lebkuchen-9d2508/deploys)
 
 ## My process
 
